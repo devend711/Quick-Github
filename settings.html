@@ -10,9 +10,8 @@
       - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
      -->
      <script src="jquery.min.js"></script>
-     <script src="header.js"></script>
-    <script src="popup.js"></script>
-
+    <script src="header.js"></script>
+    <script src="settings.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">  </head>
   <body>
     <section id="logo">
@@ -22,18 +21,19 @@
         </a>
       </section>
 
-    <section id="repos">
-      <div class="heading">
-        Recent Repos <span id="repo-count" class="counter"></span>
-        <span class="right"><a id="all-repos">see all &#187;</a></span>
+    <section id="username">
+      <div>
+        Github Username: <input id="username"></input>
       </div>
     </section>
 
     <section id="footer">
-      <a href="settings.html" tabindex="-1">
-        <img id="settings_icon" class="small-icon" src="icons/gear-a.png">
-      </a>
+		<a href="popup.html">
+			<img id="back-icon" class="small-icon" src="icons/ios7-arrow-back.png">
+		</a>
+		<a href="settings.html" tabindex="-1">
+			<img id="settings-icon" class="small-icon" src="icons/gear-a.png">
+		</a>
     </section>
   </body>
 </html>
-

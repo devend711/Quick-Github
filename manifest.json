@@ -2,11 +2,13 @@
   "manifest_version": 2,
 
   "name": "Quick Github",
-  "description": "This extension provides helpful links and info for your Github accounts.",
+  "description": "This extension provides helpful links and info for your Github account.",
   "version": "1.0",
+  "options_page": "settings.html",
 
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "browser_action": {
     "default_icon": "github-1024-black.png",
