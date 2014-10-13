@@ -1,0 +1,39 @@
+body {
+	font: 13px/1.4 Helvetica, arial;
+}
+
+img {
+	border: none;
+}
+
+a, a:visited, a:hover {
+	text-decoration: none;
+	outline: none;
+	color: #4183c4;
+}
+
+section .heading {
+	background-color: black;
+	color: white;
+	padding: 0.5em;
+	margin-bottom: .25em;
+	top: 0;
+	left: 0;
+}
+
+section span.right {
+	float: right;
+}
+
+section .heading a, section .heading a:visited, section .heading a:hover {
+	color: white;
+}
+
+section#top {
+	text-align: center;
+}
+
+section#top img#github-logo {
+	height: 3em;
+	width: auto;
+}

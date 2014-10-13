@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+     <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">  </head>
+  <body>
+    <section id="top">
+      <img id="github-logo" src="github-1024-black.png">
+    </section>
+
+    <section id="repos">
+      <div class="heading">
+        Recent Repos
+        <span class="right"><a id="all-repos">see all &#187;</a></span>
+      </div>
+    </section>
+  </body>
+</html>
+
